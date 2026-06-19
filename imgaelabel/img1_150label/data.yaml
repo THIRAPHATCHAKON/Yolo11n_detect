@@ -1,0 +1,10 @@
+path: ./imgaelabel/img1_150label
+
+train: images/train
+val: images/val
+
+names:
+  0: car
+  1: province
+  2: plate_number
+  3: license_plate

@@ -1,0 +1,9 @@
+path: D:\yolo\dataset_1
+train: images/train
+val: images/val
+nc: 4
+names:
+- car
+- province
+- plate_number
+- license_plate
