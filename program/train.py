@@ -1,0 +1,15 @@
+from ultralytics import YOLO
+
+model = YOLO("D:\yolo\model\yolo11n.pt")
+
+model.train(
+    data="dataset_3/data.yaml",  # dataset
+    epochs=100,               # จำนวนรอบ
+    imgsz=960,                # ขนาดภาพ
+    batch=16,                 # จำนวนรูปต่อ batch
+    workers=4,                # โหลดข้อมูล
+    patience=20,              # early stop
+    save=True,                # บันทึกโมเดล
+    project="runs_plate",     # โฟลเดอร์ผลลัพธ์
+    name="train1"               # ชื่อรอบเทรน
+)

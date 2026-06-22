@@ -3,7 +3,7 @@ import cv2
 
 model = YOLO("best.pt")
 
-results = model("5.jpg")
+results = model("img_4.jpg")
 
 annotated_img = results[0].plot()
 

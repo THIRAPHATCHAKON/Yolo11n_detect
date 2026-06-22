@@ -4,7 +4,7 @@ import cv2
 # ==========================
 # CONFIG
 # ==========================
-DATASET_DIR = "img_50label"
+DATASET_DIR = "img350_450label"
 
 IMAGES_DIR = os.path.join(DATASET_DIR, "images")
 LABELS_DIR = os.path.join(DATASET_DIR, "labels")
